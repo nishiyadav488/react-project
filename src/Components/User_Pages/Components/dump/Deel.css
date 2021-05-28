@@ -1,0 +1,351 @@
+.imageflex00{
+	display: flex;
+	flex-direction: row;
+	width: 80%;
+	position: absolute;
+	left : 20%;
+	height : 36vw;
+}
+.row{
+	height : 14.5vw;
+}
+#imageflex100{
+	width: 34vw;
+	height : 36vw;
+}
+.container{
+	height : 36vw;
+}
+#flextext00{
+	background-color: #f6ebdf;
+	opacity: 80%;
+	position: relative;
+	text-align: center;
+	top: -52%;
+	left : 16%;
+	font-size: 2rem;
+	display: inline-block;
+	color: #0E2861;
+}
+
+#imageflex100 img{
+	height: 100%;
+	width: 100%; 
+	border-radius: 10px;
+
+}
+
+#imageflex200{
+	width: 27vw;
+	height: 100%;
+}
+
+.city00 img{
+	display: flex;
+	justify-content: center;
+	border-radius: 10px;
+	opacity: 90%;
+	width: 8vw;
+	
+}
+
+.city00 img:hover {
+	opacity: 100%;
+	transform: scale(1.05);
+}
+
+#city100 img{
+	height : 13vw;	
+}
+#city200 img{
+	height : 8vw;
+}
+#city300 img{
+	height : 12vw;
+}
+#city400 img{
+	height: 9vw;
+	position: relative;
+	top: -0.5vw;
+}
+#city500 img{
+	height: 15vw;
+	position: relative;
+	top: -5.5vw;
+	
+}
+#city600 img{
+	height : 13vw;
+	position: relative;
+	top: -1.5vw;
+	
+}
+#city700 img{
+	height : 13vw;
+	position: relative;
+	top: -6vw;
+	
+}
+#city800 img{
+	height: 13vw;
+	position: relative;
+	top: -5.5vw;
+	
+}
+#city900 img{
+	height: 9.5vw;
+	position: relative;
+	top: -2.5vw;
+}
+
+.citytext00{
+	background-color: #f6ebdf;
+	opacity: 70%;
+	position: relative;
+	text-align: center;
+	color: #2F3542;
+	width: 8vw;
+	top : -5vw;
+}
+
+#citytext500{
+	top : -14vw;
+
+}
+#citytext700{
+	top : -13vw;
+	
+}
+#citytext800{
+	top : -14vw;
+}
+#citytext900{
+	top : -9vw;
+	
+}
+
+.city{
+	color : black;
+	text-decoration : none;
+}
+
+@media only screen and (max-width : 1340px){
+	.imageflex00{
+		left: 9%;
+	}
+	#imageflex100{
+		width: 46vw;
+		height: 49vw;
+	}
+	#imageflex200{
+		width: 35vw;
+		height : 135%;
+	}
+	.city00 img{
+		width: 11vw;
+	}
+	.citytext00{
+		width: 11vw;
+	}
+
+	#city100 img{
+		height : 18vw;	
+	}
+	#city200 img{
+		height : 11vw;
+	}
+	#city300 img{
+		height : 15vw;
+	}
+	#city400 img{
+		height: 10vw;
+		position: relative;
+		top: 4.5vw;
+	}
+	#city500 img{
+		height: 20vw;
+		position: relative;
+		top: -2.5vw;
+		
+	}
+	#city600 img{
+		height : 16vw;
+		position: relative;
+		top: 1.5vw;
+		
+	}
+	#city700 img{
+		height : 19vw;
+		position: relative;
+		top: 1vw;
+		
+	}
+	#city800 img{
+		height: 18vw;
+		position: relative;
+		top: 2.5vw;
+		
+	}
+	#city900 img{
+		height: 16.5vw;
+		position: relative;
+		top: 3.5vw;
+	}
+}
+
+@media only screen and (max-width : 1000px){
+	.imageflex00{
+		flex-direction: column;
+
+		left: 9%;
+	}
+	#imageflex100{
+		width: 82vw;
+		height: 75vw;
+	}
+	#imageflex200{
+		width: 81vw;
+		height : 135%;
+		position: relative;
+		top: 3vw;
+	}
+	.city00 img{
+		width: 24vw;
+	}
+
+	.citytext00{
+		width: 24vw;
+	}
+
+	#city100 img{
+		height : 30vw;	
+	}
+	#city200 img{
+		height : 18vw;
+	}
+	#city300 img{
+		height : 25vw;
+	}
+	#city400 img{
+		height: 23vw;
+		position: relative;
+		top: 16.5vw;
+	}
+	#city500 img{
+		height: 40vw;
+		position: relative;
+		top: 4.5vw;
+		
+	}
+	#city600 img{
+		height : 34vw;
+		position: relative;
+		top: 11.5vw;
+		
+	}
+	#city700 img{
+		height : 35vw;
+		position: relative;
+		top: 25vw;
+		
+	}
+	#city800 img{
+		height: 33vw;
+		position: relative;
+		top: 28.5vw;
+		
+	}
+	#city900 img{
+		height: 27.5vw;
+		position: relative;
+		top: 32.5vw;
+	}
+	.citytext00{
+		top: -7vw;
+	}
+	#citytext400{
+		top: 0vw;
+	}
+	#citytext700{
+		top: 3vw;
+	}
+	#citytext800{
+		top: 5vw;
+	}
+	#citytext900{
+		top: 15vw;
+	}
+}
+ 
+@media only screen and (max-width : 575px){
+	#imageflex200{
+		width: 90vw;
+		position: relative;
+		left: -3vw;
+	}
+
+}
+@media only screen and (max-width : 510px){
+	#imageflex200{
+		width: 94vw;
+		position: relative;
+		left: -3vw;
+	}
+
+}
+@media only screen and (max-width : 480px){
+	.imageflex00{
+		left: 3%;
+	}
+	#imageflex100{
+		width: 86vw;
+		height: 93vw;
+	}
+	#imageflex200{
+		width: 92vw;
+		height : 135%;
+		
+	}
+	
+}
+@media only screen and (max-width : 450px){
+	#imageflex200{
+		width: 94vw;
+	}
+
+}
+@media only screen and (max-width : 410px){
+	#imageflex200{
+		width: 96vw;
+	}
+	#imageflex100{
+		width: 88vw;
+		height: 101vw;
+	}
+
+}
+@media only screen and (max-width : 380px){
+	#imageflex200{
+		width: 98vw;
+	}
+
+}
+@media only screen and (max-width : 350px){
+	#imageflex200{
+		width: 100vw;
+	}
+	#imageflex100{
+		height: 120vw;
+	}
+
+}
+@media only screen and (max-width : 320px){
+	#imageflex200{
+		width: 102vw;
+	}
+	#imageflex100{
+		height: 130vw;
+	}
+
+}
+

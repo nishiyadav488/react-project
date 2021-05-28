@@ -1,0 +1,189 @@
+.alice-carousel__prev-btn-item{
+	
+	height: 75px;
+	width: 75px;
+	position: relative;
+	top: -240px;
+	left: -94%;
+	border: 2px solid white;
+	border-radius: 100%;
+	background-color: white;
+     
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+
+}
+.alice-carousel__prev-btn-item span{
+	position: relative;
+    top: 11px;
+    font-size: 27px;
+    left: -24px;
+}
+.alice-carousel__next-btn-item span{
+	position: relative;
+    top: 11px;
+    font-size: 27px;
+    left: 24px;
+}
+.alice-carousel__next-btn-item{
+	height: 75px;
+	width: 75px;
+	padding: 7%;
+	position: relative;
+	top: -240px;
+	left: 29vw;
+	border: 2px solid white;
+	border-radius: 100%;
+	background-color: white;
+	
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+}
+.alice-carousel__wrapper{
+	width:84%;
+}
+.alice-carousel{
+	margin-left: 9%;
+}
+
+#ratecard img{
+	width: 100%;
+	height: 18rem;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+	border-radius: 3%; 
+
+}
+
+.rate_collection {
+	padding: 4px;
+	border-radius: 10px;
+}
+
+#slidercard_button {
+	left: 0px;
+   font-size: 100%;
+   background-color: #da9310;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+   border:none;
+   padding: 4px;
+   width: 37%;
+   border-radius: 6px;
+}
+#slidercard_button:hover {
+	background-color: white ;
+	color: #da9310;
+	border: 2px solid #da9310; 
+
+}
+
+#top_destination{
+	font-weight: bold;
+	font-size: 255%;
+	text-align: center;
+	padding: 3%;
+	font-family: 'Roboto Slab', serif;
+
+	color: #2F3542;
+}
+
+#rate{
+	width: 64%;
+	margin-left: 33%;
+	padding: 10px;
+	border-radius: 10px;
+	position: relative;
+	top:-56px;
+
+}
+#ratecard{
+	width: 100%;
+	background-color: white;
+	border-radius: 8%;
+	padding: 10px;
+	
+	font-family: 'Recursive', sans-serif;
+
+}
+.alice-carousel{
+	position: relative;
+	left: -22%;
+}
+#card_title{
+	display: block;
+	font-size: 17px;
+	
+	color: #2F3542;
+
+
+	
+}
+
+#card_locai{
+	font-size: 13px;
+	color: #8C8B8B;
+	
+}
+
+#card_ratings{
+	font-size: 12px;
+	color: #8C8B8B;
+	
+}
+
+#card_price{
+	font-size: 13px;
+	color: #8C8B8B;
+	
+}
+
+.hello1{
+	position: relative;
+	top: -119px;
+}
+
+.hello2{
+	position: relative;
+	top: -241px;
+}
+@media only screen and (max-width: 1000px){
+	.hello1{
+		top: 39px;
+	}
+	#top_destination{
+		font-size: 236%;
+		padding: 6%;
+	}
+
+	.hello2{
+		top: -87px;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.hello1{
+		top: -59px;
+	}
+	.hello2{
+		top: -108px;
+	}
+	#top_destination{
+		padding: 10%;
+		font-size: 200%;
+	}
+}
+@media only screen and (max-width: 412px){
+	#rate{
+		width: 80%;
+		margin-left: 25%;
+	}
+	#ratecard{
+		width: 98%;
+	}
+}
+@media only screen and (max-width: 334px){
+	#rate{
+		width: 90%;
+	}
+	#ratecard{
+		width: 99%;
+	}
+}

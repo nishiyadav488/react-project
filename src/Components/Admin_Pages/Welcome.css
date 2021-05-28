@@ -1,0 +1,42 @@
+#Login1_div{
+	
+	overflow: auto;
+	opacity: 100;	
+
+}
+
+ button{
+	position: relative;
+	left : 33%;
+}
+
+
+.Welcome{
+	border: 5px solid red;
+	padding: 7%;
+	width: 80%;
+	margin: 10% 10%;
+	background-color: pink;
+	text-align: left;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	color: #762cc1; 
+}
+h3{
+	text-align: center;
+	text-decoration: underline;
+}
+
+#main{
+	overflow: auto;
+}
+#parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-content: space-around; 
+}
+

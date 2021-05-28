@@ -1,0 +1,99 @@
+#image img{
+	width: 1836px;
+	height: 328px;
+}
+
+#title_text{
+	position: relative;
+	top: -145px;
+	left: 200px;
+	background-color: #f2f2f2 ;
+	opacity: 70%;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 30px;
+}
+#luxury{
+	background-color: #f2f2f2;
+}
+
+#whole{
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+}
+.filter_head{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	z-index: 1;
+	color: #2F3542;
+
+}
+
+form{
+	border : 2px solid black;
+}
+
+#filter{
+	
+	width: 45%;
+	padding: 10px;
+	color: #2F3542;
+}
+#content{
+	padding: 10px;
+	
+}
+#content img{
+	width: 200px;
+	height: 180px;
+	cursor: pointer;
+	opacity : 90%;
+}
+
+#content img:hover{
+	opacity: 100%;
+}
+
+.mycard{
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	justify-content: space-around;
+	padding: 3px;
+	border : 2px dotted black; 
+	background-color: white;
+}
+
+.myimage{
+	padding: 3px;
+}
+.content{
+	padding: 3px;
+}
+.head{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #2F3542;
+}
+.locai{
+	font-size: 10px;
+	color: #8C8B8B;
+}
+.text{
+	font-size: 13px;
+	color: #8C8B8B;
+}
+.rating{
+	padding: 3px;
+	color: #8C8B8B;
+}
+button{
+	cursor: pointer;
+	position: relative;
+	top: 12%;
+	left:37%;
+	font-size: 12px;
+}

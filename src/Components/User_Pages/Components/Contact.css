@@ -1,0 +1,316 @@
+.divcon footer{
+	top: 4vw;
+}
+
+#name_flex{
+	display: flex;
+	flex-direction: row;
+}
+.divcon .bottom{
+	background-color: #f2f2f2;
+}
+.divcon #copyright{
+	top: 284px;
+}
+
+#homeiee_flexbox{
+	display: flex;
+	flex-direction: row;
+	width: 70%;
+	margin-left: 15%; 
+	 box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19) ;
+}
+.addressbox{
+	position: relative;
+	top: 2vw;
+}
+.map2{
+	padding: 3px;
+}
+#map img{
+	
+	width: 19vw;
+	height: 19vw; 
+	border: none;
+
+}
+.naamee{
+	font-size: 20px;
+}
+
+#fname{
+ font-size: 146%;
+ background-color:#dce4e9  ;
+ color: black ;
+    padding: 3px; 
+    border: none;
+    width: 13vw;
+}
+
+
+#lname{
+font-size: 146%;
+background-color: #dce4e9 ;
+color: black ;
+ padding: 3px; 
+border: none;
+ width: 13vw;
+
+}
+#mail{
+font-size: 146%;
+background-color: #dce4e9 ;
+color: black ;
+padding: 3px; 
+  border: none;
+  width: 68%;
+}
+#homeiee{
+
+ width: 64%;
+ padding: 3%;
+ background-color: #f2f2f2;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+form{
+  border: none;
+}
+.conrow{
+ background-color: #dce4e9 ;
+ color: black; ;
+  padding: 3px; 
+    border:none; 
+    width: 68%;
+}
+ .buttonn_con{
+ 
+  font-size: 110%;
+  width: 68%;
+  margin-left: -33%;
+  background-color: #da9310;
+  color: white;
+ padding: 3px; 
+   border:none; 
+}
+button .buttonn_con :hover{
+
+	background-color: white ;
+	color: #da9310;
+	border: 2px solid #da9310; 
+}
+
+.us{
+  font-size: 56px;
+  font-style: 20px bold;
+ font-weight: 600;
+     color: #1f1f1f;
+     padding: 3px; 
+     text-align: center;
+   
+}
+
+.name_fname{
+  width: 14vw;
+}
+.name_lname{
+  width: 14vw;
+}
+@media only screen and (max-width: 1440px) {
+ 
+  .addressbox{
+  	top: 68px;
+  	margin-left: 3vw;
+  }
+  #fname{
+  	width: 18vw;
+  }
+  #lname{
+  	width: 18vw;
+  }
+  #mail{
+  	width: 39vw;
+  }
+  .conrow{
+  	width: 39vw;
+  }
+  .buttonn_con{
+  	width: 39vw;
+  }
+  .us{
+  	font-size:43px;
+  }
+  .name_fname{
+    width: 20vw;
+  }
+  .name_lname{
+    width: 20vw;
+  }
+}
+@media only screen and (max-width: 1383px) {
+ .addressbox{
+ 	top: 78px;
+ }
+
+}
+@media only screen and (max-width: 1095px) {
+  #map img{
+  	height: 23vw;
+  	width: 20vw;
+  }
+  .us{
+  	font-size: 33px;
+  }
+  .addressbox{
+  	top: 131px;
+  }
+}
+@media only screen and (max-width: 1075px) {
+ .addressbox{
+ 	top: 67px;
+ }
+
+}
+@media only screen and (max-width: 913px) {
+#map img{
+	height: 26vw;
+	width: 20vw;
+}
+.addressbox{
+	top: 83px;
+}
+
+}
+@media only screen and (max-width: 735px) {
+ .divcon footer{
+ 	top: 10vw;
+ } 
+}
+
+@media only screen and (max-width: 615px) {
+	#name_flex{
+		flex-direction: column;
+	}
+  #fname{
+  	width: 39vw;
+  }
+ #lname{
+ 	width: 39vw;
+ } 
+
+ .map2{
+ 	padding: 2px;
+ }
+ #map img{
+ 	height: 31vw;
+ 	width: 23vw;
+ }
+ .addressbox{
+ 	margin-left: 0vw;
+ }
+ #home_flex{
+ 	box-shadow: none;
+ 	width: 100%;
+ 	margin-left: 0%;
+ }
+}
+@media only screen and (max-width: 593px) {
+ #homeiee_flexbox{
+ 	width: 100%;
+ 	margin-left: 0%;
+
+ }
+#fname{
+	width: 50vw;
+}
+#lname{
+	width: 50vw;
+}
+#mail{
+	width: 50vw;
+}
+.conrow{
+	width: 50vw;
+}
+.buttonn_con{
+	width: 50vw;
+}
+#map img{
+	height: 39vw;
+	width: 33vw;
+}
+.divcon footer{
+	top: 14vw;
+}
+}
+@media only screen and (max-width: 550px) {
+ .buttonn_con{
+ 	margin-left: -1%;
+ }
+
+
+}
+@media only screen and (max-width: 885px){
+  .name_fname{
+   width: 22vw;
+  }
+  .name_lname{
+    width: 22vw;
+  }
+}
+@media only screen and (max-width: 425px) {
+.divcon footer{
+	top: 20vw;
+}
+ .name_fname {
+    width: 25vw;
+}  
+.name_lname{
+  width: 25vw;
+} 
+
+}
+@media only screen and (max-width: 375px) {
+  .divcon footer{
+  	top: 27vw;
+  }  
+  .name_fname {
+    width: 29vw;
+}  
+.name_lname{
+  width: 29vw;
+}                                 
+}
+@media only screen and (max-width: 320px) {
+
+.naamee{
+	font-size: 18px;
+}
+#fname{
+	height: 9vw;
+	font-size: 18px;
+}
+#lname{
+	height: 9vw;
+	font-size: 18px;
+}
+#mail{
+	height: 9vw;
+	font-size: 18px;
+}
+.buttonn_con{
+	height: 9vw;
+}
+.map2{
+	font-size: 13px;
+}
+.divcon footer{
+	top: 31vw;
+}
+.name_fname {
+    width: 29vw;
+}
+.name_lname{
+  width: 29vw
+}
+}

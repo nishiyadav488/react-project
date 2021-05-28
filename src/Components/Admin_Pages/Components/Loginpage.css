@@ -1,0 +1,45 @@
+.App{
+	background-color: #d1dff8;
+	border : 1px solid #d1dff8;
+}
+
+
+
+#my_div{
+	overflow: auto;
+	opacity: 100;	
+}
+
+.main{
+	border: 5px solid #470a84;
+	padding: 5%;
+	width: 35%;
+	margin : 9% 27%;
+	background-color: #c4daea;
+
+}
+
+.headdingg{
+	font-size: 30px;
+}
+
+.primary, .footer{
+	text-align: center;
+
+}
+
+.about{
+	border: 5px solid #470a84;
+	padding: 5%;
+	width: 35%;
+	margin : 7% 27%;
+	background-color: #c4daea;
+}
+
+.home{
+	border: 5px solid #470a84;
+	padding: 10%;
+	width: 30%;
+	margin : 11% 27%;
+	background-color: #c4daea;
+}

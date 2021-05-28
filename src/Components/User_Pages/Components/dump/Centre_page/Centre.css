@@ -1,0 +1,45 @@
+.heading{
+	display: inline-block;
+	font-size: 25px;
+}
+.heading2{
+	display: inline-block;
+	font-size: 20px;
+}
+.para{
+	display: inline-block;
+	font-size: 15px;
+}
+#cc{
+	background-color: #f6ebdf;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px;
+	position: relative;
+	
+}
+
+#text{
+	text-align: center; 
+	
+}
+
+#text{
+	flex-basis: 900px;
+}
+
+#table{
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	left: 5%;
+	flex-basis: 1156px;
+}
+
+#table div{
+	display: inline-block;
+	width: 256px;
+	text-align: center;
+}

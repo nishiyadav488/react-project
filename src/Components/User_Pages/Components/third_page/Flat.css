@@ -1,0 +1,125 @@
+#flat-hide{
+	display: none;
+}
+#flat-show{
+	display: block;
+}
+
+.flat-imgg img{
+	width: 38px;
+    position: relative;
+    margin-left: 1%;
+    top: -52vw;
+}
+
+.flat-imgg img:hover{
+	cursor: pointer;
+	transform: scale(1.40);
+}
+
+.carousel .slide img {
+    width: 58% !important;
+    height: 47vw !important;
+}
+.carousel .slide {
+    background: #898383 !important;
+    opacity: 80% !important;
+}
+.carousel .thumbs {
+    text-align: center;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  
+    opacity: 10 !important;
+    background-color: transparent !important;
+ }
+ .carousel .control-next.control-arrow {
+    left: 97% !important;
+}
+
+@media only screen and  (max-width: 1440px){
+    .flat-imgg img {
+        top: -54vw;
+    }
+}
+@media only screen and  (max-width: 1024px){
+    .flat-imgg img {
+        top: -57vw;
+    }
+}
+@media only screen and  (max-width: 849px){
+    .flat-imgg img {
+        top: -66vw;
+    }
+    .carousel .slide img {
+        width: 80% !important;
+        height: 54vw !important;
+    }
+}
+@media only screen and  (max-width: 768px){
+    .flat-imgg img {
+        top: -73vw;
+    }
+    .carousel .slide img {
+        height: 59vw !important;
+    }
+}
+@media only screen and  (max-width: 681px){
+    .flat-imgg img {
+        top: -83vw;
+    }
+    .carousel .slide img {
+        height: 68vw !important;
+    }
+}
+@media only screen and  (max-width: 591px){
+    .flat-imgg img {
+        top: -97vw;
+    }
+    .carousel .slide img {
+        height: 79vw !important;
+    }
+}
+@media only screen and  (max-width: 507px){
+    .flat-imgg img {
+        top: -112vw;
+    }
+    .carousel .slide img {
+        height: 91vw !important;
+    }
+}
+@media only screen and  (max-width: 438px){
+    .flat-imgg img {
+        top: -116vw;
+        filter: invert(1);
+    }
+    .carousel .slide img {
+        width: 100% !important;
+        height: 104vw !important;
+    }
+}
+@media only screen and  (max-width: 414px){
+    .flat-imgg img {
+        top: -130vw;
+    }
+}
+@media only screen and  (max-width: 408px){
+
+    .carousel .thumbs {
+        margin-left: -6% !important; 
+    }
+}
+@media only screen and  (max-width: 384px){
+    .flat-imgg img {
+        top: -148vw;
+    }
+    .carousel .slide img {
+        height: 119vw !important;
+    }
+}
+@media only screen and  (max-width: 360px){
+
+    .carousel .thumbs {
+        margin-left: -16% !important; 
+    }
+}

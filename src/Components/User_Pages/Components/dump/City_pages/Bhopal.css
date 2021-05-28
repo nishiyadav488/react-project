@@ -1,0 +1,98 @@
+#image_bhopal img{
+	padding: 0%;
+	width: 100%;
+	height: 393px;
+}
+
+#title_bhopal{
+	position: relative;
+	top: -145px;
+	left: 200px;
+	background-color: #f2f2f2;
+	opacity: 70%;
+	display: inline-block;
+	font-weight: bold;
+	font-size: 47px;
+}
+#bhopal{
+	background-color: #f2f2f2;
+}
+
+#whole_bhopal{
+	background-color: #f2f2f2;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+}
+#content_bhopal{
+	padding: 10px;
+	
+}
+#content_bhopal img{
+	width: 99%;
+	height: 304px;
+	cursor: pointer;
+	opacity : 90%;
+}
+
+#content_bhopal img:hover{
+	opacity: 100%;
+}
+
+.mycitycard{
+	
+	width: 76%;
+	
+	padding: 3px;
+	border : 2px dotted black; 
+	background-color: white;
+	position: relative;
+	top: 0%;
+}
+
+#content_bhopal .myimage{
+	padding: 3px;
+}
+#content_bhopal .content{
+	padding: 3px;
+}
+#content_bhopal .head{
+	text-decoration: underline;
+	cursor: pointer;
+	font-size: 20px;
+}
+#content_bhopal .locai{
+	font-size: 15px;
+}
+#content_bhopal .mytext{
+	font-size: 15px;
+
+}
+#content_bhopal .rating{
+	padding: 3px;
+}
+#content_bhopal button{
+	cursor: pointer;
+	position: relative;
+	top: -3%;
+	left:84%;
+	font-size: 12px;
+}
+.filter_head{
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+
+#filter_bhopal form{
+	border : 2px solid black;
+	width: 56%;
+	height: 51%;
+	position: relative;
+	left: 43%;
+}
+
+#filter_bhopal{
+	
+	width: 30%;
+}

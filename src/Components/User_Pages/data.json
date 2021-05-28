@@ -1,0 +1,108 @@
+{
+	"top" : {
+		"headerdata" : [
+			{"id" : "1", "title" : "Welcome to Madhya Pradesh"},
+			{"id" : "2", "home" : "Home"},
+			{"id" : "3", "about" : "About"},
+			{"id" : "4", "explore" : "Explore"},
+			{"id" : "4", "contact" : "Contact"}
+		],
+		"imagetext" : {
+			"img1" : "Luxury Deals",
+			"img2" : "Tour",
+			"img3" : "Culture",
+			"img4" : "Cusine",
+			"img5" : "Wildlife",
+			"img6" : "Places"
+		}
+	},
+
+	
+
+	"centre" : {
+		"heading" : "Madhya Pradesh",
+		"quote" : "''Heart of India''",
+		"content" : "dfgdf drgfg drgrdg dfgdfb gdfg grdgdf sdgdf dvdfb dbvdff vdfv gfb grg grt grrth awda ki kknkjf v ud jdljmkv jicns dnjk nadsb kjefnj kjn nfn nkvjlk lik nfwk mwcmk nkk nrvkk rvnklnk necjn fjnrck njncj nkjnj nknnc fiudcb rrth awda ki kknkjf v ud jdljmkv jicns dnjk nadsb kjefnj kjn nfn nkvjlk lik nfwk mwcmk nkk nrvkk rvnklnk necjn fjnrck njncj nkjnj nknnc",
+
+		"table" : [
+			{"text1" : "Formation", "value1" : "5 November nnnn"},
+			{"text2" : "Capital", "value2" : "Bhopal"},
+			{"text3" : "Largest City", "value3" : "Indore"},
+			{"text4" : "Population", "value4" : "72,626,809"},
+			{"text5" : "Literacy", "value5" : "70.6%"},
+			{"text6" : "Language", "value6" : "Hindi"},
+			{"text7" : "Website", "value7" : "mp.gov.in"}
+		]
+	},
+
+	"luxury" : {
+		"title" : "Luxurious Stays at Madhya Pradesh",
+		"image1" : {
+			"head" : "Taj Usha Kiran Palace",
+			"location" : "Gwalior",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		},
+		"image2" : {
+			"head" : "Indore Marriot Hotel",
+			"location" : "Indore",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		},
+		"image3" : {
+			"head" : "Vijan Mahal",
+			"location" : "Jabalpur",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		},
+		"image4" : {
+			"head" : "Sayaji Mahal",
+			"location" : "Indore",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		},
+		"image5" : {
+			"head" : "Radisson Jass Palace",
+			"location" : "Khajurao",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		},
+		"image6" : {
+			"head" : "Jehan Numa Palace",
+			"location" : "Bhopal",
+			"about" : "nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj vj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj nhfhjhf svj hjshfjc jcjn jcnj bchj",
+			"price" : "XX,XXX"
+		}
+	},
+
+	"footer" : {
+		"manage" : {
+			"title" : "Manage",
+			"home" : "Home",
+			"about" : "About Us",
+			"plan" : "Plans",
+			"contact" : "Contact Us",
+			"explore" : "Explore"
+		},
+
+		"contact" : [
+			{"title" : "Contact"},
+			{"title" : "Phone", "value" : "1234567890"},
+			{"title" : "Email", "value" : "exploreit@gmail.com"},
+			{"title" : "Address", "value" : "Q-1, block-43, xyz colony,ABCD, XXXX, India"}
+		],
+
+		"address" : {
+			"title" : "Follow Us",
+			"facebook" : "Facebook",
+			"twitter" : "Twitter",
+			"insta" : "Instagram"
+
+		}
+	},
+
+	"city_para" : "asdf sdfg fgh dfg fgdh dfg defr defr edrf derft erdfwt rftgey trgyhr tregryh rtfgy rftgy gteyhr tgyhr gthbry gthbryt gtbhryntju gthyrbt gthyrtuj gtyh gthyrbtju tyhuj ythujt ythuj tyghuj  dfrgte edf fggh ghj fghj gtyrhu hyujiko werty ghnjmk  nm,rrftgyhufvgtbhy gthyrtu" 
+
+
+
+}

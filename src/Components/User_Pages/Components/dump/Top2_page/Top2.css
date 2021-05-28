@@ -1,0 +1,69 @@
+#top{
+	background-color:  #f2f2f2; 
+	padding: 2px;
+
+}
+
+.mybox{
+	cursor: pointer;
+	padding: 10px;
+}
+
+.mybox img{
+	width: 43%;
+	height : 63%;
+	border-radius: 100%;
+	text-align: center;
+}
+
+/*.navbarr a{
+	text-decoration: none;
+	color : #2F3542;
+}*/
+/*.menu{
+	opacity : 98%;
+	position: relative;
+	top : -457px;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+
+
+#wallpaper{
+	width: 100%;
+	height : 29rem;
+}
+
+.collection{
+	background-color: white;
+	width: 50vw;
+	border : 0rem solid #0000;
+	border-radius: 15px;
+	width: 50vw;
+	text-align: center;
+	padding: 5px;
+	position: relative;
+	top: -7vw;
+	left: 27vw;
+
+}
+.mytext{
+	text-align: center;
+	font-size: 113%;
+	color: #2F3542;
+	font-weight: normal;
+}
+
+
+
+
+
+.contain{
+
+	padding: 2px;
+
+}
+
+
+*/

@@ -28,20 +28,20 @@ class About extends Component {
 
   register =() =>{
     let result = this.check();
-    if(this.state.username != "" && this.state.password != "" && this.state.number != "" && this.state.email != "" && result == false){
+    if(this.state.username !== "" && this.state.password !== "" && this.state.number !== "" && this.state.email !== "" && result === false){
         // if no blank box and new user
         this.updateData();
         this.setState({
             submit : true
         })
     }
-    else if(result == true){
+    else if(result === true){
         //if that user and email already exist
         this.setState({
             error : "This  username/email already there"
         })
     }
-    else if(this.state.username == "" && this.state.password == "" && this.state.number == "" && this.state.email == ""){
+    else if(this.state.username === "" && this.state.password === "" && this.state.number === "" && this.state.email === ""){
         //if any input is blank
         this.setState({
             error : "NO entries should be blank"

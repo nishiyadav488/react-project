@@ -35,9 +35,6 @@ const AwayCrowd = () => {
 		window.addEventListener("resize",handleResize);
 	})
 
-	const handleDragStart = (e) => e.preventDefault();
-
-
 	const items = [
 		<Link to='/Cusine2' className="rate_collection" style={{"text-decoration" : "none"}}>
 			<SliderCard image={deal5} heading="LA KUCHINO RESTRAUNT" locai="Bhopal"rating='4.5' price="XXXXX"/>

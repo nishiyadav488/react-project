@@ -36,8 +36,6 @@ const TopRated = () => {
 		window.addEventListener("resize",handleResize);
 	})
 
-	const handleDragStart = (e) => e.preventDefault();
-
 	const items = [
 		<Link to='/lake'className="rate_collection" style={{"text-decoration" : "none"}}>
 			<SliderCard image={lake} heading="BHOPAL LAKE" locai="Bhopal"rating='2' price="XXXXX"/>

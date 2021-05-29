@@ -1,12 +1,7 @@
-import React , {useState,Component} from 'react'
+import React , {Component} from 'react'
 import './Rent.css'
 import {Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import deal7 from './../assets/deal7.jpg'
-import deal8 from './../assets/deal8.jpg'
-import deal9 from './../assets/deal9.webp'
-import Sayaji from './../assets/sayaji.jpeg'
-import Carouselss from './../Components/third_page/Carousel.js'
 class Rent extends Component{
 
 	render(){
@@ -17,13 +12,13 @@ class Rent extends Component{
             <div id="small_div">
              <div className="owners">{this.props.owner}</div>
              <div className="owner_div">
-                <img src={this.props.pics} className="img0"/>{this.props.locations}
+                <img src={this.props.pics} className="img0" alt=""/>{this.props.locations}
              </div>
             </div> 
              <div className="flex00">
                 <div className="flex0">
-	              <div className="icon_img"><img src={this.props.img1}/></div>
-	              <div className="icon_img"><img src={this.props.img2}/> </div>
+	              <div className="icon_img"><img src={this.props.img1} alt=""/></div>
+	              <div className="icon_img"><img src={this.props.img2} alt=""/> </div>
 	            </div> 
 	             <div className="flex1">
 		             <div className="he_bold">{this.props.second}</div>
@@ -65,22 +60,22 @@ class Rent extends Component{
                 </div>
                  <div className="flex_button">
 	                <div className="flex_box2">
-	                  <div className="flex_wrap"><img src={this.props.face} className="home"/>
+	                  <div className="flex_wrap"><img src={this.props.face} className="home" alt=""/>
 	                      <div>
 		                     <div className="he_bold">{this.props.facing}</div>
 		                     <div className="plan_text">{this.props.facee}</div>
 	                     </div>
 	                  </div>
-	                  <div className="flex_wrap"><img src={this.props.propr}className="home"/>
+	                  <div className="flex_wrap"><img src={this.props.propr}className="home" alt=""/>
 	                  <div>
 	                    <div className="he_bold">{this.props.property}</div>
                         <div className="plan_text">{this.props.perty}</div></div>
 	                    </div>
-	                  <div className="flex_wrap"> <img src={this.props.bath}className="home"/><div>
+	                  <div className="flex_wrap"> <img src={this.props.bath}className="home" alt=""/><div>
 	                   <div className="he_bold">{this.props.bathroom}</div>
                        <div className="plan_text">{this.props.room}</div></div>
 	                  </div>
-	                  <div className="flex_wrap"> <img src={this.props.park}className="home"/><div>
+	                  <div className="flex_wrap"> <img src={this.props.park}className="home" alt=""/><div>
 	                   <div className="he_bold">{this.props.parking}</div>
                        <div className="plan_text">{this.props.king}</div></div>
 	                  </div>

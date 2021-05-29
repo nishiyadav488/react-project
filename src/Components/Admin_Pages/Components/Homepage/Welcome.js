@@ -50,13 +50,13 @@ class Welcome extends Component{
 	register_click = (props) => {
 		let result = null;
 		result = this.registerclick_Handler();
-		if(result == null && this.state.user != "" && this.state.email != ""){		
+		if(result == null && this.state.user !== "" && this.state.email !== ""){		
 			this.setState({
 				call_register : true
 			})
 		}
 		else{
-			if(this.state.user == "" || this.state.email == ""){
+			if(this.state.user === "" || this.state.email === ""){
 				this.setState({
 				register_error : "Username and email must be filled"
 				})
@@ -81,14 +81,14 @@ class Welcome extends Component{
 	nameHandler = (e) => {
 		e.preventDefault();
 		let id = e.target.id;
-		if(id == 1){
+		if(id === 1){
 			let new_name = e.target.value;
 			this.setState({
 				username: new_name
 			})
 			console.log(new_name)
 		}
-		else if(id == 2){
+		else if(id === 2){
 			let new_name = e.target.value;
 			this.setState({
 				user: new_name

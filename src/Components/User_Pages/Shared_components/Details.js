@@ -8,7 +8,7 @@ const Details =(props)=> {
 		<div>
             <div className="DEEtail">
              <div className="picss">
-               <img src={props.image}/>
+               <img src={props.image} alt=""/>
              </div> 
              <br/>
              <div className="border1">

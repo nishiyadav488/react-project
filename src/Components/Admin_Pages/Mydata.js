@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React,{Component} from 'react';
 
 class Mydata extends Component{
@@ -43,7 +44,8 @@ class Mydata extends Component{
 					match = value;
 				}
 			}
-		} )
+		} 
+		)
 		
 		return match;
 	}

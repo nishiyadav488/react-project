@@ -1,7 +1,6 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import './Top.css'
 import data from './../../data.json'
-import wallpaper from './../../assets/wall5.png'
 import Pilgrimage from './../../assets/pilgrimage.jpeg'
 import Tour from './../../assets/tour.jpeg'
 import Culture from './../../assets/culture.jpeg'
@@ -15,7 +14,6 @@ import {Link} from 'react-router-dom'
 const Top = ()=>{	
 	
 		const mytext = data.top.imagetext
-		const header = data.top.headerdata
 
 		return(
 			<div id="top">
@@ -27,27 +25,27 @@ const Top = ()=>{
 					<br/>
 					<div className = "collection">
 						<Link to="/luxury_deals" className = "mybox">
-							<img src={Hotels} />
+							<img src={Hotels}  alt=""/>
 							<div className = "mytext">{mytext.img1}</div>
 						</Link>
 						<Link to='/tour' className = "mybox">
-							<img src={Tour} />
+							<img src={Tour}  alt=""/>
 							<div className = "mytext">{mytext.img2}</div>
 						</Link>
 						<Link to='/culture'className = "mybox">
-							<img src={Culture} />
+							<img src={Culture}  alt=""/>
 							<div className = "mytext">{mytext.img3}</div>
 						</Link>
 						<Link to='/cusine'className = "mybox">
-							<img src={Cusine} />
+							<img src={Cusine}  alt=""/>
 							<div className = "mytext">{mytext.img4}</div>
 						</Link>
 						<Link to='/wildlife'className = "mybox">
-							<img src={Fauna} />
+							<img src={Fauna}  alt=""/>
 							<div className = "mytext">{mytext.img5}</div>
 						</Link>
 						<Link to='/tour'className = "mybox">
-							<img src={Pilgrimage} />
+							<img src={Pilgrimage} alt="" />
 							<div className = "mytext">{mytext.img6}</div>
 						</Link>
 					</div>

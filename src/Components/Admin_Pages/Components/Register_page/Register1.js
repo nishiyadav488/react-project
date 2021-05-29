@@ -45,7 +45,7 @@ class Register1 extends Component{
 	}
 
 	nextHandler = (props) => {
-		if(this.state.age!="" && this.state.state!="" && this.state.mobile!=""){
+		if(this.state.age!=="" && this.state.state!=="" && this.state.mobile!==""){
 			this.setState({
 				next : true
 			})

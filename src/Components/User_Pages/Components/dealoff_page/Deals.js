@@ -1,5 +1,4 @@
 import React from 'react'
-import Off from './../../assets/off.jpeg'
 import Deal from './../../assets/new_maing.jpeg'
 import './Deals.css'
 import deal1 from './../../assets/new_grid1.jpeg'
@@ -12,7 +11,7 @@ import deal7 from './../../assets/new_grid7.jpeg'
 import deal8 from './../../assets/new_grid8.jpg'
 import deal9 from './../../assets/new_grid99.jpeg'
 import {Link} from 'react-router-dom'
-import{Container,Row,Col,Image} from 'react-bootstrap';
+import{Container,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Deals = () => {
@@ -21,7 +20,7 @@ const Deals = () => {
     <div id="deall">
       <div className="imageflex00">
         <div id="imageflex100">
-          <img src ={Deal}/>
+          <img src ={Deal} alt="#"/>
           <div id="flextext00">It's time for new Adventure</div>
         </div>
         <div id="imageflex200">
@@ -29,19 +28,19 @@ const Deals = () => {
             <Row sm="4">
               <Col sm="4" xs="auto">
                 <Link to ='/Camp1' id="city100" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal1}/>
+                  <img src ={deal1} alt="#"/>
                   <div id="citytext100" className="citytext00">LAKESIDE CAMP</div>
                 </Link>
               </Col>
               <Col sm="4" xs="auto">
                 <Link to ='/Hotel1' id="city200" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal2}/>
+                  <img src ={deal2}alt="#"/>
                   <div id="citytext200" className="citytext00">HALALAI CAMP</div>
                 </Link>
               </Col>
               <Col sm="4" xs="auto">
                 <Link to ='/Cusine1' id="city300" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal3}/>
+                  <img src ={deal3}alt="#"/>
                   <div id="citytext300" className="citytext00">SALKANPUR CAMP</div>
                 </Link>
               </Col>
@@ -49,19 +48,19 @@ const Deals = () => {
             <Row sm="4">
               <Col sm="4" xs="auto">
                 <Link to ='/Camp2' id="city400" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal4}/>
+                  <img src ={deal4}alt="#"/>
                   <div id="citytext400" className="citytext00">MOMO CAFE</div>
                 </Link>
               </Col>
               <Col sm="4" xs="auto">
                 <Link to ='/Hotel2' id="city500" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal5}/>
+                  <img src ={deal5}alt="#"/>
                   <div id="citytext500" className="citytext00">LA KUCHINO</div>
                 </Link>
               </Col>
               <Col sm="4" xs="auto">
                 <Link to ='/Cusine2' id="city600" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal6}/>
+                  <img src ={deal6}alt="#"/>
                   <div id="citytext600" className="citytext00">MANGO TREE</div>
                 </Link>
               </Col>
@@ -69,19 +68,19 @@ const Deals = () => {
             <Row sm="4">
               <Col sm="4" xs="auto">
                 <Link to ='/Camp3' id="city700" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal7}/>
+                  <img src ={deal7}alt="#"/>
                   <div id="citytext700" className="citytext00">NATURE COURTYARD</div>
                 </Link>
               </Col>
               <Col sm="4"  xs="auto">
                 <Link to ='/Hotel3' id="city800" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal8}/>
+                  <img src ={deal8}alt="#"/>
                   <div id="citytext800" className="citytext00">WOODS INN</div>
                 </Link>
               </Col>
               <Col sm="4"  xs="auto">
                 <Link to ='/Cusine3' id="city900" className="city00" style={{"text-decoration" : "none"}}>
-                  <img src ={deal9}/>
+                  <img src ={deal9}alt="#"/>
                   <div id="citytext900" className="citytext00">VILLA DA CASA</div>
                 </Link>
               </Col>

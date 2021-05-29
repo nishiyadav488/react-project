@@ -12,15 +12,15 @@ const Center = () => {
 				<div id="textid1">Find your PERFECT destinations</div>
 			     <div className="main">
 				   <Link to="/luxury_deals" className="imgid1" style={{"text-decoration" : "none"}}>
-					  <p><img src ={Camp}/></p>
+					  <p><img src ={Camp} alt="#"/></p>
 					  <div className="textclass">ADVENTURE<br/></div>
 				   </Link>
 				   <Link to="/luxury_deals" className="imgid1" style={{"text-decoration" : "none"}}>
-					  <p><img src ={Stays}/></p>
+					  <p><img src ={Stays} alt="#"/></p>
 					  <div className="textclass" id="imgid1_font">Hotel Deals<br/></div>
 				   </Link>
 				   <Link to="/luxury_deals" className="imgid1" style={{"text-decoration" : "none"}}>
-					  <p> <img src ={Food}/></p>
+					  <p> <img src ={Food} alt="#"/></p>
 					  <div className="textclass">CUSINE<br/></div>
 				   </Link>
 				  </div>

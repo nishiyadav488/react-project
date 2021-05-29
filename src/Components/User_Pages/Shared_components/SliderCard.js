@@ -7,7 +7,7 @@ const SliderCard = (props) => {
 		<div id="ratecard">
 			<div id="card_title">{props.heading}</div>
 			<div id="card_locai">{props.locai}</div>
-			<img src={props.image} />
+			<img src={props.image}  alt=""/>
 			<div id="card_ratings">
 				<ReactStars
 					count = {5}

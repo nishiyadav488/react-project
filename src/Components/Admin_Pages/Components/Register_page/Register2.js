@@ -32,8 +32,8 @@ class Register2 extends Component{
 	}
 
 	saveHandler = (props) => {
-		if(this.state.password!="" && this.state.confirm!=""){
-			if(this.state.password == this.state.confirm){
+		if(this.state.password!=="" && this.state.confirm!==""){
+			if(this.state.password === this.state.confirm){
 				this.setState({
 					call_save : true
 				})

@@ -1,4 +1,4 @@
-import React ,{useState,useEffect}from 'react'
+import React ,{useState}from 'react'
 import './../Components/Top_page/Top.css'
 import data from './../data.json'
 import {Link} from 'react-router-dom'
@@ -12,7 +12,7 @@ const Header = ()=>{
 		const [click,setClick] = useState(false);
 		const [counter,setCounter] = useState(1);
 		const clickHandler2 = () => {
-			if(counter%2 == 0){
+			if(counter%2 === 0){
 				setClick(false)
 				setCounter(counter+1)
 			}
@@ -22,10 +22,9 @@ const Header = ()=>{
 			}
 			
 		}
-		console.log({counter})
 		return(
 				<div className="header">	
-					<img src={wallpaper} id="wallpaper" /><br/>					
+					<img src={wallpaper} id="wallpaper"  alt=""/><br/>					
 					<div className = "menu" >
 						<ul className="navbar">
 							<li id="li1">WELCOME  TO  THE  CITY</li>
@@ -37,7 +36,7 @@ const Header = ()=>{
 						<form id="navbar">
 
 	                         <ul  style={{"text-decoration" : "none"}} className="navbar2"  id="select">
-	                            <li style={{"text-decoration" : "none"}} onClick={clickHandler2}><Link to ="/" style={{"text-decoration" : "none"}}><img src={list}/></Link></li>
+	                            <li style={{"text-decoration" : "none"}} onClick={clickHandler2}><Link to ="/" style={{"text-decoration" : "none"}}><img src={list} alt=""/></Link></li>
 	                            <li className= {click ? "showlink" : "hidelink"}><Link to ="/" style={{"text-decoration" : "none"}}>Home</Link></li>
 	                            <li className= {click ? "showlink" : "hidelink"}><Link to ="/about" style={{"text-decoration" : "none"}}>About</Link></li>
 	                            

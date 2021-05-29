@@ -16,7 +16,6 @@ import {Link} from 'react-router-dom'
 
 const Cusine = () => {
 
-	const title = data.luxury.title
 	const hotel1 = data.luxury.image1
 	const hotel2 = data.luxury.image2
 	const hotel3 = data.luxury.image3
@@ -27,7 +26,7 @@ const Cusine = () => {
 	return(
 		<div id="luxury">
 			<div id="image">
-				<img src={wallpaper}/>
+				<img src={wallpaper} alt=""/>
 				<div id="title_text">
 					Look to best Cusine
 				</div>

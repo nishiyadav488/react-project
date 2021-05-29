@@ -25,7 +25,7 @@ const Amarkantak = () => {
 	return(
 		<div id="Bhopal">
 			<div id="image_bhopal">
-				<img src={wallpaper}/>
+				<img src={wallpaper} alt="#"/>
 				<div id="title_bhopal">
 					Stays at Amarkantak
 				</div>

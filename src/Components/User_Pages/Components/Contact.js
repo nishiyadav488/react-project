@@ -1,7 +1,6 @@
 import {React} from 'react'
 import './Contact.css'
 import Footer from './Footer/Footer.js'
-import {Link} from 'react-router-dom'
 import Header from './../Shared_components/Header.js'
 import locai  from './../assets/locaiiii.png'
 
@@ -47,7 +46,7 @@ const Contact =()=>{
 
               <div className="addressbox">
                 <div id="map">
-                  <img src={locai}/>
+                  <img src={locai} alt=""/>
                 </div>
                 <div className ="map2"> abcd bhgd hfbf fjjn </div>
                 <div className ="map2"> abcd bhgd hfbf fjjn </div>

@@ -11,17 +11,17 @@ const Bhk = () => {
     const [r_count,setr_count]=useState(false)
 
 	const onclickbutton = (id) =>{
-        if(id==1){
+        if(id===1){
             setb_count(!b_count)
              setr_count(false)
              setc_count(false)
         }
-        else if(id==2){
+        else if(id===2){
             setr_count(!r_count)
              setb_count(false)
              setc_count(false)
         }
-        else if(id==3){
+        else if(id===3){
             setc_count(!c_count)
              setb_count(false)
              setr_count(false)

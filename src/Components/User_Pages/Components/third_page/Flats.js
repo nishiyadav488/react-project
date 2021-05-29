@@ -12,11 +12,9 @@ import close from './../../assets/close.png'
 import Header from './../../Shared_components/Header.js'
 import Footer from './../Footer/Footer.js'
 import './../../Shared_components/Rent.css'
-import deal7 from './../../assets/deal7.jpg'
 import deal8 from './../../assets/deal8.jpg'
 import deal9 from './../../assets/deal9.webp'
 import Sayaji from './../../assets/sayaji.jpeg'
-import {Carousel} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Flat.css'
 import Carouselss from './Carousel.js'
@@ -45,7 +43,7 @@ class Flats extends Component{
            
            {clicker}
            <div id={this.state.click ? "flat-show" : "flat-hide"} className="flat-imgg">
-              <img src={close} onClick={this.clickHandling.bind(this)}/>
+              <img src={close} alt="" onClick={this.clickHandling.bind(this)}/>
            </div>
                 <div id={this.state.click ? "flat-hide" : "flat-show"}>  
                    <Header/>

@@ -25,7 +25,7 @@ const Balaghat = () => {
 	return(
 		<div id="Bhopal">
 			<div id="image_bhopal">
-				<img src={wallpaper}/>
+				<img src={wallpaper} alt="#"/>
 				<div id="title_bhopal">
 					Stays at Balaghat
 				</div>
@@ -38,7 +38,7 @@ const Balaghat = () => {
 				<CityCard img={Balaghat3} head="Hotel Mallikarjun Internationals" text={hotel6.about} location="Balaghat" price={hotel3.price}ratings='3'paragraph={data.city_para}/><br/>
 				<CityCard img={Balaghat4} head="Hotel Midtown" text={hotel6.about}location="Balaghat" price={hotel4.price}ratings='3.5'paragraph={data.city_para}/><br/>
 				<CityCard img={Balaghat5} head="Hotel Sheetal Palace" text={hotel6.about}location="Balaghat" price={hotel5.price}ratings='4.5'paragraph={data.city_para}/><br/>
-				<CityCard img={Balaghat6} head="hotel manuhar(Restaurant & Banquet)" text={hotel6.about}location="Balaghat" price={hotel6.price}ratings='5'paragraph={data.city_para}/>
+				<CityCard img={Balaghat6} head="hotel manuhar(Restaurant Banquet)" text={hotel6.about}location="Balaghat" price={hotel6.price}ratings='5'paragraph={data.city_para}/>
 			</div></div>
 			<Footer/>
 		</div>
